@@ -1,12 +1,13 @@
 body {
-    background-color: black;
-    color: white;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     font-family: Consolas, monaco, monospace;
     padding-top: 1em;
     padding-left: 1em;
+    height: 100%;
 }
 
-#name {
+#hello {
     font-family: Consolas, monaco, monospace; 
     font-size: 50px; 
     font-style: normal; 
@@ -15,6 +16,7 @@ body {
 }
 
 #code {
+    color: rgb(200, 200, 200);
     font-family: Consolas, monaco, monospace; 
     font-size: 30px; 
     font-style: normal; 
@@ -39,3 +41,31 @@ body {
     0%   { visibility: visible; }
     50%   { visibility: hidden; }
 }
+
+
+
+
+#footer {
+    margin-top: 10em;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 25px;
+  }
+
+.fa-linkedin {
+    background: #007bb5;
+    color: rgb(255, 255, 255);
+  }
+
+
+.fa-github {
+    background: #5a5a5a;
+    color: rgb(255, 255, 255);
+  }
