@@ -29,6 +29,7 @@ body {
 }
 
 #pipe {
+    font-size: 35px;
     animation: flash 1s infinite;
     visibility: hidden;
 }
