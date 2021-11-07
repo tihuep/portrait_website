@@ -1,2 +1,2 @@
 //Spotify album ID of the album of the year
-sAlbumId = "33cj3kzLqVOg9zvy69Wrc8"
+sAlbumId = "1t2YSGGRvSaf1zHE0cfjr2"
