@@ -1,2 +1,2 @@
 //Spotify album ID of the album of the week
-sAlbumId = "7H8FDSPJjNvzO7ZCTyxKpo"
+sAlbumId = "5acKLBGuSEu7LkrXdG41PA"
