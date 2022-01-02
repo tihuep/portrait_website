@@ -65,17 +65,3 @@ body {
     background: #5a5a5a;
     color: rgb(255, 255, 255);
 }
-
-
-
-
-#album {
-    margin-top: 5em;
-    width: 100%;
-    max-width: 30em;
-}
-
-#album_title{
-    font-size: 30px;
-    font-weight: 500;
-}
