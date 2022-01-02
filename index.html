@@ -35,20 +35,5 @@
         <a href="https://linkedin.com/in/timon-hueppi" class="fa fa-linkedin"></a>
         <a href="https://github.com/tihuep" class="fa fa-github"></a>
     </div>
-    <div id="album">
-        <p id="album_title">
-            ---<br>
-            Album of the week
-        </p>
-        <!--Spotify album embed-->
-        <iframe id="album_iframe" width="100%" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
-    </div>
-    <script src="album.js"></script>
-    <script>
-        //Sets the album ID from album.js to the iframe
-        oAlbumIframe = document.getElementById("album_iframe");
-        sSpotifyUrl = "https://open.spotify.com/embed/album/" + sAlbumId + "?theme=0";
-        oAlbumIframe.setAttribute("src", sSpotifyUrl);
-    </script>
 </body>
 </html>
