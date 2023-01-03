@@ -1,58 +1,52 @@
-body {
-    background-color: rgb(0, 0, 0);
-    color: rgb(255, 255, 255);
-    font-family: Consolas, monaco, monospace;
-    font-style: normal; 
-    font-variant: normal; 
-    padding-left: 1em;
+body, html {
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
 }
 
+#bg {
+    background-image: url("swiss_camo.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 100%;
+    width: 100%;
+}
 
-
+#body {
+    height: 100%;
+    font-family: Consolas, monaco, monospace;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 #hello {
-    font-size: 50px;
+    color: rgb(255, 255, 255);
+    font-size: 70px;
     font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 1rem;
 }
 
 #code {
-    color: rgb(200, 200, 200);
-    font-size: 30px;
+    color: rgb(230, 230, 230);
+    font-size: 50px;
     font-weight: 500;
-
-    animation: appear 2s forwards;
-    opacity: 0;
-}
-
-@keyframes appear {
-    to   { opacity: 1; }
-}
-
-#pipe {
-    font-size: 35px;
-    animation: flash 1s infinite;
-    visibility: hidden;
-}
-
-@keyframes flash {
-    0%   { visibility: visible; }
-    50%   { visibility: hidden; }
-}
-
-
-
-
-#social {
-    margin-top: 5em;
+    margin-top: 0;
+    margin-bottom: 3rem;
 }
 
 .fa {
     padding: 20px;
-    font-size: 30px;
-    width: 30px;
+    font-size: 50px;
+    width: 50px;
     text-align: center;
     text-decoration: none;
-    margin: 10px;
+    margin-right: 2rem;
     border-radius: 20px;
 }
 
