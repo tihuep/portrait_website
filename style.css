@@ -24,9 +24,13 @@ body, html {
     align-items: center;
 }
 
+#container {
+    padding-left: 1rem;
+}
+
 #hello {
     color: rgb(255, 255, 255);
-    font-size: 70px;
+    font-size: 50px;
     font-weight: 700;
     margin-top: 0;
     margin-bottom: 1rem;
@@ -34,7 +38,7 @@ body, html {
 
 #code {
     color: rgb(230, 230, 230);
-    font-size: 50px;
+    font-size: 30px;
     font-weight: 500;
     margin-top: 0;
     margin-bottom: 3rem;
@@ -42,8 +46,8 @@ body, html {
 
 .fa {
     padding: 20px;
-    font-size: 50px;
-    width: 50px;
+    font-size: 40px;
+    width: 40px;
     text-align: center;
     text-decoration: none;
     margin-right: 2rem;
