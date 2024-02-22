@@ -7,7 +7,7 @@ body, html {
 }
 
 #bg {
-    background-color: rgb(20,20,20);
+    background-color: rgb(30,30,30);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -29,7 +29,7 @@ body, html {
 }
 
 #hello {
-    color: rgb(255, 255, 255);
+    color: rgb(240, 240, 240);
     font-size: 50px;
     font-weight: 700;
     margin-top: 0;
@@ -37,7 +37,7 @@ body, html {
 }
 
 #code {
-    color: rgb(230, 230, 230);
+    color: rgb(210, 210, 210);
     font-size: 30px;
     font-weight: 500;
     margin-top: 0;
