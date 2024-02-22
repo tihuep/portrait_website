@@ -7,7 +7,7 @@ body, html {
 }
 
 #bg {
-    background-image: url("swiss_camo.jpg");
+    background-color: rgb(20,20,20);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
